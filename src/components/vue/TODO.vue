@@ -21,7 +21,7 @@ function add() {
             </button>
         </div>
         <div class="mt-3">
-            <div v-for="(todo, i) in todos" :key="i" class="bg-orange-300 rounded px-1">{{ todo }}</div>
+            <div v-for="(todo, i) in todos" :key="i" class="bg-orange-300 rounded px-1 mb-2">{{ todo }}</div>
         </div>
     </div>
 </template>
